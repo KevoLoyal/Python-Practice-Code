@@ -25,11 +25,11 @@
 
 ###############################################################################
 
-i = 100
-string = "The numbers from 0 to 100 are: "
+i = 100 # Var to keep the count
+string = "The numbers from 0 to 100 are: " # This will store each "i" in each cycle
 
 while i != 0:
-	string = string + str(i) + ", "
+	string = string + str(i) + ", "   # The str(i) adds "i" as a text instead of a number
 	i = i - 1
 
 print(string + str(i))
